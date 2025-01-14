@@ -1,6 +1,16 @@
+package instruments;
+
 public abstract class Instrument {
     private String name;
     private int price;
+
+    static {
+        System.out.println("Instrument workshop established");
+    };
+
+    {
+        System.out.println("Creating a new instrument");
+    }
 
     public Instrument(String name, int price){
         this.name = name;
@@ -23,4 +33,8 @@ public abstract class Instrument {
         return price;
     }
     public abstract void tocar();
+    public static void plorar(){
+        System.out.println("No hi ha cap instrument, i això és molt trist.");
+    }
+
 }

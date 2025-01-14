@@ -1,4 +1,6 @@
-public class StringInstrument extends Instrument{
+package instruments;
+
+public class StringInstrument extends Instrument {
     public StringInstrument(String name, int price){
         super(name,price);
     }
