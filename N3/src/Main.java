@@ -35,17 +35,20 @@ public class Main {
                 case "SS":
                     NewsRoom.showStaff();
                     break;
-                case "NN": NewsRoom.assignNews();
+                case "NN":
+                    NewsRoom.assignNews();
                     break;
                 case "EN":
+                    NewsRoom.eliminateNews();
                     break;
-                case "SR": NewsRoom.showNews();
-                    break;
-                case "UN":
+                case "SR":
+                    NewsRoom.showNews();
                     break;
                 case "PN":
+                    NewsRoom.getNewsPoints();
                     break;
                 case "VN":
+                    NewsRoom.getNewsValue();
                     break;
                 case "X":
                     break;
