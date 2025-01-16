@@ -35,11 +35,11 @@ public class Main {
                 case "SS":
                     NewsRoom.showStaff();
                     break;
-                case "NN":
+                case "NN": NewsRoom.assignNews();
                     break;
                 case "EN":
                     break;
-                case "SR":
+                case "SR": NewsRoom.showNews();
                     break;
                 case "UN":
                     break;
