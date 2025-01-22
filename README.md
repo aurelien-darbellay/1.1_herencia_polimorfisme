@@ -24,3 +24,7 @@ Crea una interfície anomenada "Camera" amb el mètode fotografiar(), i una altr
 Crea una classe anomenada "Smartphone" que sigui subclasse de "Telèfon" i que a la vegada implementi les interfícies "Camera" i "Rellotge".
 El mètode fotografiar() ha de mostrar per consola: “S’està fent una foto” i el mètode alarma() ha de mostrar: “Està sonant l’alarma”.
 Des del main() de l’aplicació, crea un objecte Smartphone i crida als mètodes anteriors.
+
+## Nivell 3
+
+Crea un menu que permet administrar una newsRoom. Afegir i eleminar redactors. Atribuir-los noticies, i controlar el valor d'aquestes noticies. 
